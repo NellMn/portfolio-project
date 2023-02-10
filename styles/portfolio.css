@@ -37,7 +37,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -109,7 +109,7 @@ p {
 
 .logo {
   font-family: var(--logo-font-family);
-  font-size: 36px;
+  font-size: 32px;
   color: var(--branding-color);
 }
 
@@ -142,6 +142,50 @@ nav li.active a {
 
 .nav-home {
   background-color: var(--secondary-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box h4 {
+  font-size: 48px;
+}
+
+footer .contact-box p {
+  font-size: 18px;
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  font-size: 18px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  border-radius: 50%;
+  padding: 10px 14px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
 
 @media (max-width: 900px) {
